@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context=".Piano" >
+
+    <Button
+        android:id="@+id/nota_do"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_blanco"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_re"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_negro"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_mi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_blanco"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_fa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_negro"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_sol"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_blanco"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_la"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_negro"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+    <Button
+        android:id="@+id/nota_si"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo_blanco"
+        android:orientation="vertical"
+        android:onClick="tocarNota" >
+    </Button>
+
+</LinearLayout>
